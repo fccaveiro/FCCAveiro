@@ -37,6 +37,10 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50px;
+
+  ${below.s`
+    grid-template-columns: 60% 40%;
+  `}
 `;
 
 const TextWrapper = styled.div`
@@ -46,14 +50,14 @@ const TextWrapper = styled.div`
   font-size: 15px;
 
   ${below.xxl`
-    padding-left: 70px;
+    padding-left: 60px;
   `}
 
-${below.xl`
+  ${below.xl`
     padding-left: 50px;
   `}
 
-${below.l`
+  ${below.l`
     padding-left: 40px;
   `}
 `;

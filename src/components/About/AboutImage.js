@@ -24,4 +24,8 @@ const StyledImg = styled.img`
   ${below.m`
     top: 80px;
   `}
+
+  ${below.s`
+    display: none;
+  `}
 `;

@@ -42,4 +42,9 @@ ${below.m`
     margin-top: 30px;
     grid-template-rows: minmax(400px, 1fr);
   `}
+
+${below.s`
+  grid-template-columns: 100%;
+  grid-template-rows: minmax(400px, 1fr);
+`}
 `;

@@ -28,7 +28,7 @@ const TextWrapper = styled.div`
     padding-left: 50px;
   `}
 
-${below.l`
+  ${below.l`
     padding-left: 40px;
   `}
 

@@ -24,4 +24,8 @@ const StyledImg = styled.img`
   ${below.xl`
     width: 50%;
   `}
+
+  ${below.s`
+    display: none;
+  `}
 `;

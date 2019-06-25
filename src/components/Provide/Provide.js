@@ -37,4 +37,9 @@ ${below.m`
     grid-template-columns: 10px 2fr 10px;
     grid-template-rows: 350px 400px;
   `}
+
+${below.s`
+    grid-template-columns: 10px 2fr 10px;
+    grid-template-rows: 350px 400px 400px;
+  `}
 `;

@@ -21,6 +21,11 @@ const Wrapper = styled.div`
   align-self: center;
   padding-right: 30px;
 
+  ${below.s`
+    grid-column: 1 / 2;
+    padding-left: 30px;
+  `}
+
   & h1 {
     padding-bottom: 30px;
     color: ${darkGreen};

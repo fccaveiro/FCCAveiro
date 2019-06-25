@@ -46,6 +46,10 @@ const CheckoutLeft = styled(animated.div)`
   height: 100%;
   background: ${gray10};
   z-index: 5;
+
+  ${below.m`
+    width: 50%;
+  `}
 `;
 
 const CheckoutRight = styled(animated.div)`
@@ -54,6 +58,10 @@ const CheckoutRight = styled(animated.div)`
   height: 100%;
   background: ${darkGreen};
   z-index: 5;
+
+  ${below.m`
+    width: 50%;
+  `}
 `;
 
 const LinkWrapper = styled.ul`

@@ -67,4 +67,9 @@ const Container = styled.div`
     grid-row: 2 / 3
     display: flex;
   `}
+
+  ${below.s`
+    grid-row: 2 / 4
+    display: grid;
+  `}
 `;
