@@ -1,15 +1,15 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import { Button } from "../../elements";
+import { Button } from '../../elements';
 
-import { darkGreen } from "../../utilities";
+import { darkGreen, below } from '../../utilities';
 
 const ProviderText = props => (
   <Wrapper>
     <h1>{props.data.title && props.data.title}</h1>
     <p>{props.data.description && props.data.description}</p>
-    <Button href={props.data.link ? props.data.link : ""}>Load More</Button>
+    <Button href={props.data.link ? props.data.link : ''}>Load More</Button>
   </Wrapper>
 );
 
@@ -28,4 +28,8 @@ const Wrapper = styled.div`
     padding-bottom: 40px;
     color: ${props => props.theme.colors.primary};
   }
+
+  ${below.m`
+    padding: 10px 20px;
+  `}
 `;

@@ -21,11 +21,20 @@ const Grid = styled.div`
   grid-template-rows: minmax(400px, 1fr);
 
   ${below.xxl`
-    grid-template-columns: 30px 2fr 2fr 2fr 30px;
+    grid-template-columns: 40px 2fr 2fr 2fr 40px;
   `}
 
-${below.xxl`
-    grid-template-columns: 5px 2fr 2fr 2fr 5px;
+${below.xl`
+    grid-template-columns: 10px 2fr 2fr 2fr 10px;
     grid-template-rows: minmax(425px, 1fr);
+  `}
+
+${below.l`
+  grid-template-rows: minmax(450px, 1fr);
+`}
+
+${below.m`
+    grid-template-columns: 10px 2fr 10px;
+    grid-template-rows: 350px 400px;
   `}
 `;

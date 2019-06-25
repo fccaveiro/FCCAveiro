@@ -37,10 +37,20 @@ ${below.l`
     font-weight: 800;
     color: ${darkGreen};
     padding-bottom: 40px;
+
+    ${below.m`
+      font-size: 28px;
+      padding-bottom: 20px;
+    `}
   }
 
   & h3 {
     padding-bottom: 60px;
     color: ${props => props.theme.colors.primary};
+
+    ${below.m`
+      font-size: 18px;
+      padding-bottom: 40px;
+    `}
   }
 `;

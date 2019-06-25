@@ -68,10 +68,14 @@ const ContactsWrapper = styled.div`
 ${below.l`
     padding: 50px 40px;
   `}
+
+${below.m`
+  grid-template-columns: 100%;
+`}
 `;
 
 const FormWrapper = styled.div`
-  grid-row: 1, 2;
+  grid-row: 1 / 2;
   position: relative;
 
   & input {

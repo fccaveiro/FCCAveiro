@@ -37,4 +37,9 @@ const Grid = styled.div`
     margin-top: 0px;
     grid-template-rows: minmax(550px, 1fr);
   `}
+
+${below.m`
+    margin-top: 30px;
+    grid-template-rows: minmax(400px, 1fr);
+  `}
 `;

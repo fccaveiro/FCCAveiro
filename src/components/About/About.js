@@ -33,4 +33,8 @@ const Grid = styled.div`
 ${below.l`
     grid-template-rows: minmax(480px, 1fr);
   `}
+
+${below.m`
+    grid-template-rows: minmax(440px, 1fr);
+  `}
 `;
