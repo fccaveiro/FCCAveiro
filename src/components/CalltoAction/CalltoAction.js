@@ -32,4 +32,9 @@ const Grid = styled.div`
     margin-top: 20px;
     grid-template-rows: minmax(620px, 1fr);
   `}
+
+  ${below.l`
+    margin-top: 0px;
+    grid-template-rows: minmax(550px, 1fr);
+  `}
 `;

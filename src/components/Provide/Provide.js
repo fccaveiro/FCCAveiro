@@ -23,4 +23,9 @@ const Grid = styled.div`
   ${below.xxl`
     grid-template-columns: 30px 2fr 2fr 2fr 30px;
   `}
+
+${below.xxl`
+    grid-template-columns: 5px 2fr 2fr 2fr 5px;
+    grid-template-rows: minmax(425px, 1fr);
+  `}
 `;

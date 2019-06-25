@@ -28,6 +28,10 @@ const TextWrapper = styled.div`
     padding-left: 50px;
   `}
 
+${below.l`
+    padding-left: 40px;
+  `}
+
   & h1 {
     font-size: 40px;
     font-weight: 800;

@@ -29,4 +29,8 @@ const Grid = styled.div`
   ${below.xl`
     grid-template-rows: minmax(530px, 1fr);
   `}
+
+${below.l`
+    grid-template-rows: minmax(480px, 1fr);
+  `}
 `;

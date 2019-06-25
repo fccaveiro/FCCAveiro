@@ -52,6 +52,10 @@ const TextWrapper = styled.div`
 ${below.xl`
     padding-left: 50px;
   `}
+
+${below.l`
+    padding-left: 40px;
+  `}
 `;
 
 const LinksWrapper = styled.div`

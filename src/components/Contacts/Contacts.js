@@ -64,6 +64,10 @@ const ContactsWrapper = styled.div`
   ${below.xl`
     padding: 50px 50px;
   `}
+
+${below.l`
+    padding: 50px 40px;
+  `}
 `;
 
 const FormWrapper = styled.div`
