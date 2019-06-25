@@ -1,15 +1,15 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import ProviderText from "./ProviderText";
-import Card from "./Card";
+import ProviderText from './ProviderText';
+import Card from './Card';
 
-import { below, gray10, darkGreen, elevation } from "../../utilities";
+import { below } from '../../utilities';
 
 const Provide = props => (
   <Grid>
-    <ProviderText data={props.data ? props.data.second_block_content : ""} />
-    <Card data={props.data ? props.data.second_block_content : ""} />
+    <ProviderText data={props.data ? props.data.second_block_content : ''} />
+    <Card data={props.data ? props.data.second_block_content : ''} />
   </Grid>
 );
 

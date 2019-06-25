@@ -1,9 +1,9 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import { Button } from "../../elements";
+import { Button } from '../../elements';
 
-import { darkGreen, below } from "../../utilities";
+import { darkGreen, below } from '../../utilities';
 
 const CtaText = props => (
   <TextWrapper>
@@ -22,6 +22,10 @@ const TextWrapper = styled.div`
 
   ${below.xxl`
     padding-left: 70px;
+  `}
+
+  ${below.xl`
+    padding-left: 50px;
   `}
 
   & h1 {

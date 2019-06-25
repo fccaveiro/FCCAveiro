@@ -1,4 +1,4 @@
-#Freecodecamp Aveiro (Frontend of the website)
+# Freecodecamp Aveiro (Frontend of the website)
 This project uses React and Redux and connects to an API created in Wordpress.
 
 ### Features

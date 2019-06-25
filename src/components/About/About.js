@@ -1,15 +1,15 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import AboutImage from "./AboutImage";
-import AboutText from "./AboutText";
+import AboutImage from './AboutImage';
+import AboutText from './AboutText';
 
-import { below } from "../../utilities";
+import { below } from '../../utilities';
 
 const About = props => (
   <Grid>
-    <AboutImage data={props.data ? props.data.first_block_content : ""} />
-    <AboutText data={props.data ? props.data.first_block_content : ""} />
+    <AboutImage data={props.data ? props.data.first_block_content : ''} />
+    <AboutText data={props.data ? props.data.first_block_content : ''} />
   </Grid>
 );
 
@@ -24,5 +24,9 @@ const Grid = styled.div`
 
   ${below.xxl`
     grid-template-rows: minmax(570px, 1fr);
+  `}
+
+  ${below.xl`
+    grid-template-rows: minmax(530px, 1fr);
   `}
 `;

@@ -1,11 +1,11 @@
-import React from "react";
-import styled from "styled-components";
+import React from 'react';
+import styled from 'styled-components';
 
-import { below } from "../../utilities";
+import { below } from '../../utilities';
 
 const CtaImage = props => (
   <>
-    <StyledImg src={props.data.imagem ? props.data.imagem.url : ""} alt="" />
+    <StyledImg src={props.data.imagem ? props.data.imagem.url : ''} alt="" />
   </>
 );
 
@@ -19,5 +19,9 @@ const StyledImg = styled.img`
 
   ${below.xxl`
     width: 46%;
+  `}
+
+  ${below.xl`
+    width: 50%;
   `}
 `;
